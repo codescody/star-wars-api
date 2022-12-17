@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701850380.jpg);
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  background-color: rgb(203, 158, 51, .9);
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  background-image: url(https://external-preview.redd.it/PdM1yf7VY5wPtUyJm5_Gtbhuy74PWVjdVgQ3Ege-mu0.jpg?auto=webp&s=14630a9e2fd18279e7201997580b88ef9be54a7e);
+  background-size: cover;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+.starship-container {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 2em;
+  width: 300px;
+  height: 200px;
+  padding: 2em;
+  margin: 2em;
+  background-color: rgb(203, 158, 51, .9);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
